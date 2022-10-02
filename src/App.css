@@ -1,0 +1,86 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  background: wheat;
+  border-radius: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task {
+  background: #00000031;
+  margin: 0.25rem;
+  padding: 0.1rem 2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  text-align: left;
+  position: relative;
+}
+
+.cros {
+  color: red;
+  position: absolute;
+  right: 5%;
+}
+
+.task.reminder {
+  border-left: 1rem solid rgb(0, 255, 0);
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(60, 255, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form-class {
+  width: 40rem;
+  border: 0.1rem solid grey;
+  border-radius: 2rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.add-form {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control input {
+  height: 1rem;
+  margin: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.5rem;
+}
